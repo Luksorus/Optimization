@@ -1,0 +1,223 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "repeats": 7,
+  "rows": [
+    {
+      "workload": "max_n=14",
+      "strategy": "OriginalService",
+      "median_ms": 4.2331,
+      "min_ms": 4.0629,
+      "max_ms": 4.3469,
+      "retained_bytes": 656,
+      "peak_bytes": 1296,
+      "result": 43178.47890488155,
+      "cache_after_last_invalidation": null
+    },
+    {
+      "workload": "max_n=14",
+      "strategy": "LRUService",
+      "median_ms": 0.0547,
+      "min_ms": 0.0506,
+      "max_ms": 0.0967,
+      "retained_bytes": 13432,
+      "peak_bytes": 14072,
+      "result": 43178.47890488155,
+      "cache_after_last_invalidation": {
+        "hits": 59,
+        "misses": 73,
+        "maxsize": 256,
+        "currsize": 73
+      }
+    },
+    {
+      "workload": "max_n=14",
+      "strategy": "FIFOService",
+      "median_ms": 0.0891,
+      "min_ms": 0.0819,
+      "max_ms": 0.1391,
+      "retained_bytes": 12192,
+      "peak_bytes": 14656,
+      "result": 43178.47890488155,
+      "cache_after_last_invalidation": {
+        "hits": 59,
+        "misses": 73,
+        "maxsize": 256,
+        "currsize": 73
+      }
+    },
+    {
+      "workload": "max_n=16",
+      "strategy": "OriginalService",
+      "median_ms": 8.8844,
+      "min_ms": 8.3566,
+      "max_ms": 10.8976,
+      "retained_bytes": 624,
+      "peak_bytes": 1264,
+      "result": 96514.56397700123,
+      "cache_after_last_invalidation": null
+    },
+    {
+      "workload": "max_n=16",
+      "strategy": "LRUService",
+      "median_ms": 0.067,
+      "min_ms": 0.0628,
+      "max_ms": 0.1199,
+      "retained_bytes": 18048,
+      "peak_bytes": 20720,
+      "result": 96514.56397700123,
+      "cache_after_last_invalidation": {
+        "hits": 71,
+        "misses": 89,
+        "maxsize": 256,
+        "currsize": 89
+      }
+    },
+    {
+      "workload": "max_n=16",
+      "strategy": "FIFOService",
+      "median_ms": 0.1066,
+      "min_ms": 0.1016,
+      "max_ms": 0.1275,
+      "retained_bytes": 17688,
+      "peak_bytes": 20112,
+      "result": 96514.56397700123,
+      "cache_after_last_invalidation": {
+        "hits": 71,
+        "misses": 89,
+        "maxsize": 256,
+        "currsize": 89
+      }
+    },
+    {
+      "workload": "max_n=18",
+      "strategy": "OriginalService",
+      "median_ms": 18.7122,
+      "min_ms": 17.9109,
+      "max_ms": 19.1344,
+      "retained_bytes": 568,
+      "peak_bytes": 1208,
+      "result": 226338.29089476587,
+      "cache_after_last_invalidation": null
+    },
+    {
+      "workload": "max_n=18",
+      "strategy": "LRUService",
+      "median_ms": 0.0701,
+      "min_ms": 0.0628,
+      "max_ms": 0.0925,
+      "retained_bytes": 18824,
+      "peak_bytes": 21048,
+      "result": 226338.29089476587,
+      "cache_after_last_invalidation": {
+        "hits": 77,
+        "misses": 97,
+        "maxsize": 256,
+        "currsize": 97
+      }
+    },
+    {
+      "workload": "max_n=18",
+      "strategy": "FIFOService",
+      "median_ms": 0.1142,
+      "min_ms": 0.1081,
+      "max_ms": 0.2062,
+      "retained_bytes": 18128,
+      "peak_bytes": 21400,
+      "result": 226338.29089476587,
+      "cache_after_last_invalidation": {
+        "hits": 77,
+        "misses": 97,
+        "maxsize": 256,
+        "currsize": 97
+      }
+    },
+    {
+      "workload": "unique_base",
+      "strategy": "OriginalService",
+      "median_ms": 0.12,
+      "min_ms": 0.1131,
+      "max_ms": 0.1249,
+      "retained_bytes": 224,
+      "peak_bytes": 864,
+      "result": 2022.0,
+      "cache_after_last_invalidation": null
+    },
+    {
+      "workload": "unique_base",
+      "strategy": "LRUService",
+      "median_ms": 0.4175,
+      "min_ms": 0.3953,
+      "max_ms": 0.5251,
+      "retained_bytes": 17432,
+      "peak_bytes": 67376,
+      "result": 2022.0,
+      "cache_after_last_invalidation": {
+        "hits": 0,
+        "misses": 20,
+        "maxsize": 256,
+        "currsize": 20
+      }
+    },
+    {
+      "workload": "unique_base",
+      "strategy": "FIFOService",
+      "median_ms": 0.9651,
+      "min_ms": 0.8874,
+      "max_ms": 1.4345,
+      "retained_bytes": 16344,
+      "peak_bytes": 68928,
+      "result": 2022.0,
+      "cache_after_last_invalidation": {
+        "hits": 0,
+        "misses": 20,
+        "maxsize": 256,
+        "currsize": 20
+      }
+    },
+    {
+      "workload": "invalidate_each",
+      "strategy": "OriginalService",
+      "median_ms": 0.7646,
+      "min_ms": 0.7446,
+      "max_ms": 0.8359,
+      "retained_bytes": 344,
+      "peak_bytes": 504,
+      "result": 10213.521208800008,
+      "cache_after_last_invalidation": null
+    },
+    {
+      "workload": "invalidate_each",
+      "strategy": "LRUService",
+      "median_ms": 0.3976,
+      "min_ms": 0.3874,
+      "max_ms": 0.4441,
+      "retained_bytes": 6432,
+      "peak_bytes": 6656,
+      "result": 10213.521208800008,
+      "cache_after_last_invalidation": {
+        "hits": 12,
+        "misses": 31,
+        "maxsize": 256,
+        "currsize": 31
+      }
+    },
+    {
+      "workload": "invalidate_each",
+      "strategy": "FIFOService",
+      "median_ms": 0.815,
+      "min_ms": 0.7735,
+      "max_ms": 0.8581,
+      "retained_bytes": 5664,
+      "peak_bytes": 8544,
+      "result": 10213.521208800008,
+      "cache_after_last_invalidation": {
+        "hits": 12,
+        "misses": 31,
+        "maxsize": 256,
+        "currsize": 31
+      }
+    }
+  ]
+}
