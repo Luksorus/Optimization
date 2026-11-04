@@ -1,0 +1,8 @@
+{
+  "cpu": "13th Gen Intel(R) Core(TM) i9-13900H",
+  "physical_cores": 14,
+  "logical_processors": 20,
+  "ram_bytes": 16890716160,
+  "source": "Get-CimInstance Win32_Processor; Get-CimInstance Win32_ComputerSystem",
+  "date": "2026-11-04"
+}
